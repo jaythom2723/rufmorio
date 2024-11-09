@@ -1,0 +1,9 @@
+{
+    "name": "rufmorio",
+    "version": "0.0.0",
+    "title": "RUFMOrio [PRE-ALPHA]",
+    "author": "Rify",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 1.1", "rufmorio-lib >= 0.0.1", "! space-age", "! pyalienlife", "! pyalternativeenergy", "! pycoalprocessing", "! pyfusionenergy", "! pyhightech", "! pyindustry", "! pypetroleumhandling", "! pypostprocessing", "! pyrawores"],
+    "description": "Rify's Unknown Factorio Mod Overhaul-rio (RUFMOrio).\nFor those who thought Pyanodons was too easy."
+}
