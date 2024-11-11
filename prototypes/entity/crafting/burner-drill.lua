@@ -19,7 +19,7 @@ ENTITY {
             }
         }
     },
-    crafting_speed = 0.5,
+    crafting_speed = 0.15,
     crafting_categories = { "rufmorio-mining-recipe" },
     max_health = 200,
     icon = "__base__/graphics/icons/burner-mining-drill.png",
