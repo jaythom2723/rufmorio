@@ -16,4 +16,15 @@ fluid_category = {
     order = "c"
 }
 
-data:extend{mining_category, fluid_mining_category, fluid_category}
+condensing_category = {
+    type = "recipe-category",
+    name = "rufmorio-condensing-category",
+    order = "a"
+}
+
+data:extend{
+    mining_category,
+    fluid_mining_category, 
+    fluid_category,
+    condensing_category
+}

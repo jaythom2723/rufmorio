@@ -1,7 +1,7 @@
 require "prototypes.subgroups"
-require "prototypes.autoplace-controls"
+-- require "prototypes.autoplace-controls"
 
-require "prototypes.resource.trimidium-ore"
+-- require "prototypes.resource.trimidium-ore"
 
 require "prototypes.category.recipe"
 
@@ -24,9 +24,14 @@ require "prototypes.item.intermediate.olvalchite-drill-connector"
 require "prototypes.item.intermediate.trimidium-screw"
 require "prototypes.item.intermediate.trimidium-bolt"
 require "prototypes.item.drill-bit"
+
 require "prototypes.item.crafting.burner-drill"
+require "prototypes.item.crafting.atmospheric-condenser"
+
+require "prototypes.fluid.gaseous-oxygen"
 
 require "prototypes.entity.crafting.burner-drill"
+require "prototypes.entity.crafting.atmospheric-condenser"
 
 require "prototypes.recipe.mining.trimidium"
 require "prototypes.recipe.mining.olvalchite"
@@ -47,3 +52,4 @@ require "prototypes.recipe.intermediate.olvalchite-drill-connector"
 require "prototypes.recipe.intermediate.trimidium-screw-1"
 require "prototypes.recipe.intermediate.trimidium-bolt-1"
 require "prototypes.recipe.burner-drill"
+require "prototypes.recipe.condensing.oxygen"
