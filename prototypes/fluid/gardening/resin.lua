@@ -1,8 +1,8 @@
 FLUID {
     type = "fluid",
     name = "rufmorio-resin",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__rufmorio-graphics-1__/graphics/icons/fluid/resin.png",
     default_temperature = 10,
-    base_color = { r=255, g=191, b=0 },
-    flow_color = { r=255, g=191, b=0 }
+    base_color = { r=255, g=128, b=0 },
+    flow_color = { r=255, g=128, b=0 }
 }

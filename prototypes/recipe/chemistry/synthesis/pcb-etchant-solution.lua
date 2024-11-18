@@ -3,7 +3,7 @@ RECIPE {
     name = "rufmorio-pcb-etchant-solution",
     category = "rufmorio-chemical-category",
     subgroup = "rufmorio-chem-synthesis-subgroup",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__rufmorio-graphics-1__/graphics/icons/fluid/pcb-etchant-solution.png",
     ingredients = {
         { type="fluid", name="rufmorio-myridium-chloride", amount=25 },
         { type="fluid", name="rufmorio-hydrochloric-acid", amount=15 },
@@ -15,5 +15,6 @@ RECIPE {
     allow_as_intermediate = false,
     always_show_made_in = true,
     show_amount_in_title = true,
-    always_show_products = true
+    always_show_products = true,
+    enabled = false
 }

@@ -11,5 +11,6 @@ RECIPE {
     allow_as_intermediate = true,
     always_show_made_in = true,
     show_amount_in_title = true,
-    always_show_products = true
+    always_show_products = true,
+    enabled = false
 }

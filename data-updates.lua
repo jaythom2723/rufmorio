@@ -27,8 +27,7 @@ require "prototypes.item.intermediate.olvalchite-drill-connector"
 require "prototypes.item.intermediate.trimidium-screw"
 require "prototypes.item.intermediate.trimidium-bolt"
 
-require "prototypes.item.drill-bit"
-
+require "prototypes.item.catalysts.drill-bit"
 require "prototypes.item.catalysts.saw"
 require "prototypes.item.catalysts.pulverizer"
 
@@ -55,6 +54,10 @@ require "prototypes.item.electronics.olvalchite-foil"
 require "prototypes.item.electronics.pcb-base"
 require "prototypes.item.electronics.etched-pcb"
 
+require "prototypes.item.burner-lab"
+
+require "prototypes.tool.basic-science-pack"
+
 require "prototypes.fluid.chemistry.gaseous-oxygen"
 require "prototypes.fluid.chemistry.gaseous-hydrogen"
 require "prototypes.fluid.chemistry.vacuum"
@@ -79,6 +82,8 @@ require "prototypes.entity.crafting.air-pump"
 require "prototypes.entity.crafting.chemical-assembling-machine"
 require "prototypes.entity.crafting.ore-washer"
 require "prototypes.entity.crafting.fluid-separator"
+
+require "prototypes.entity.lab.burner-lab"
 
 require "prototypes.recipe.mining.trimidium"
 require "prototypes.recipe.mining.olvalchite"
@@ -141,8 +146,26 @@ require "prototypes.recipe.electronics.etched-pcb"
 
 require "prototypes.recipe.washing.trimidium"
 
-require "prototypes.recipe.chemistry.separation.hydrochloric-acid"
+require "prototypes.recipe.chemistry.separation.hydrochloric-acid-water-mixture"
+
 require "prototypes.recipe.chemistry.synthesis.myridium-chloride"
 require "prototypes.recipe.chemistry.synthesis.pcb-etchant-solution"
 
+require "prototypes.recipe.tool.basic-science-pack"
+
 require "prototypes.recipe.vacuum"
+
+require "prototypes.technology.electricity"
+require "prototypes.technology.gardening"
+require "prototypes.technology.fish-husbandry"
+require "prototypes.technology.atmospheric-condensing"
+require "prototypes.technology.composting"
+require "prototypes.technology.wood-processing"
+require "prototypes.technology.trimidium-processing-1"
+require "prototypes.technology.fluid-separation"
+require "prototypes.technology.resin-extraction"
+require "prototypes.technology.pressurization"
+require "prototypes.technology.pcb-base"
+require "prototypes.technology.myridium-chloride"
+require "prototypes.technology.etching"
+require "prototypes.technology.etched-pcb"

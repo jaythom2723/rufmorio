@@ -1,0 +1,86 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2024-11-18
+  Vanilla Changes:
+    - Lab inputs changed to accept Basic Science Packs
+  Art:
+    - Oxygen (g)
+    - Hydrogen (g)
+    - Water
+    - Myridium Chloride
+    - Hydrochloric Acid
+    - Hydrochloric Acid Water Mixture
+    - Vacuum
+    - Basic Science Pack
+    - PCB Etchant Solution
+    - Dirty Resin
+    - Resin
+  Packs:
+    - Added Basic Science Packs
+  Technologies:
+    - Began working on the start of the tech tree (before red science)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-11-17
+  Vanilla Changes:
+    - Water icon changed
+  Mining:
+    - Added Myridium Ore Mining
+  Smelting:
+    - Added Myridium Plate Smelting
+  Assembly Machines:
+    - Air Pump
+    - Atmospheric Condenser
+    - Chemical Assembling Machine
+    - Composter
+    - Electronic Assembler
+    - Fluid Separator
+    - Garden
+    - Ore Washer
+    - PCB Assembler
+    - Resin Extractor
+  Chemistry:
+    - Added Oxygen (g)
+    - Added Hydrogen (g)
+    - Added Hydrochloric Acid
+    - Added Hydrochloric Acid Water Mixture
+    - Added Myridium Chloride
+    - Added Vacuum
+  Electronics:
+    - Added Dielectric Core
+    - Added Olvalchite Foil
+    - Added PCB Base
+    - Added Etched PCB
+  Gardening:
+    - Added Composting for various organic materials
+    - Added Tree Seeds
+    - Added Tree Saplings
+    - Added Trees
+    - Added Saw
+    - Added Pulverizer
+    - Added Wood
+    - Added Wood Chunks
+    - Added Dirty Resin
+    - Added Resin
+  Ore Processing:
+    - Added Washed Trimidium Ore
+---------------------------------------------------------------------------------------------------
+Version: 0.0.0
+Date: 2024-11-9
+  Vanilla Changes:
+    - Vanilla recipes disabled
+    - Vanilla technologies disabled
+    - Vanilla ores disabled and removed from map generation
+  Drilling:
+    - Trimidium and Olvalchite mining
+    - Raw Trimidium and Raw Olvalchite can be smelted into plates respectively
+    - Catalyst drill bits
+    - Drills can be placed everywhere on the ground and drill into the ground to find an ore chosen by the player
+  Intermediates:
+    - Olvalchite Drill Connector
+    - Trimidium Bolt
+    - Trimidium Drill Base
+    - Trimidium Gear
+    - Trimidium Screw
+    - Trimidium Stick
+    - Trimidium Stilt
