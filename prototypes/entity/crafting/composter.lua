@@ -10,7 +10,7 @@ ENTITY {
     },
     crafting_speed = 0.5,
     crafting_categories = {
-        "rufmorio-gardening-category"
+        "rufmorio-composting-category"
     },
     max_health = 300,
     icon = "__base__/graphics/icons/assembling-machine-1.png",

@@ -7,14 +7,17 @@ require "prototypes.category.recipe"
 
 require "prototypes.item.ore.raw.trimidium"
 require "prototypes.item.ore.raw.olvalchite"
--- require "prototypes.item.ore.raw.myridium"
+require "prototypes.item.ore.raw.myridium"
 -- require "prototypes.item.ore.raw.plenoxite"
 -- require "prototypes.item.ore.raw.utritium"
 -- require "prototypes.item.ore.raw.halocite"
 -- require "prototypes.item.ore.raw.xenoxium"
 
+require "prototypes.item.ore.washed.trimidium"
+
 require "prototypes.item.plate.trimidium"
 require "prototypes.item.plate.olvalchite"
+require "prototypes.item.plate.myridium"
 
 require "prototypes.item.intermediate.trimidium-stick"
 require "prototypes.item.intermediate.trimidium-stilt"
@@ -41,7 +44,29 @@ require "prototypes.item.crafting.chemical-assembling-machine"
 require "prototypes.item.crafting.ore-washer"
 require "prototypes.item.crafting.fluid-separator"
 
-require "prototypes.fluid.gaseous-oxygen"
+require "prototypes.item.gardening.compost"
+require "prototypes.item.gardening.tree-seed"
+require "prototypes.item.gardening.tree"
+require "prototypes.item.gardening.wood-chunks"
+require "prototypes.item.gardening.tree-sapling"
+
+require "prototypes.item.electronics.dielectric-core"
+require "prototypes.item.electronics.olvalchite-foil"
+require "prototypes.item.electronics.pcb-base"
+require "prototypes.item.electronics.etched-pcb"
+
+require "prototypes.fluid.chemistry.gaseous-oxygen"
+require "prototypes.fluid.chemistry.gaseous-hydrogen"
+require "prototypes.fluid.chemistry.vacuum"
+require "prototypes.fluid.chemistry.hydrochloric-acid"
+require "prototypes.fluid.chemistry.myridium-chloride"
+
+require "prototypes.fluid.chemistry.mixtures.hydrochloric-acid-water-mixture"
+
+require "prototypes.fluid.gardening.dirty-resin"
+require "prototypes.fluid.gardening.resin"
+
+require "prototypes.fluid.electronics.pcb-etchant-solution"
 
 require "prototypes.entity.crafting.burner-drill"
 require "prototypes.entity.crafting.atmospheric-condenser"
@@ -58,7 +83,7 @@ require "prototypes.entity.crafting.fluid-separator"
 require "prototypes.recipe.mining.trimidium"
 require "prototypes.recipe.mining.olvalchite"
 require "prototypes.recipe.mining.stone"
--- require "prototypes.recipe.mining.myridium"
+require "prototypes.recipe.mining.myridium"
 -- require "prototypes.recipe.mining.plenoxite"
 -- require "prototypes.recipe.mining.utritium"
 -- require "prototypes.recipe.mining.halocite"
@@ -66,15 +91,19 @@ require "prototypes.recipe.mining.stone"
 
 require "prototypes.recipe.smelting.trimidium-plate"
 require "prototypes.recipe.smelting.olvalchite-plate"
+require "prototypes.recipe.smelting.myridium-plate"
 
 require "prototypes.recipe.intermediate.trimidium-stick"
-require "prototypes.recipe.intermediate.drill-bit"
 require "prototypes.recipe.intermediate.trimidium-stilt"
 require "prototypes.recipe.intermediate.trimidium-gear"
 require "prototypes.recipe.intermediate.trimidium-drill-base"
 require "prototypes.recipe.intermediate.olvalchite-drill-connector"
 require "prototypes.recipe.intermediate.trimidium-screw-1"
 require "prototypes.recipe.intermediate.trimidium-bolt-1"
+
+require "prototypes.recipe.catalysts.drill-bit"
+require "prototypes.recipe.catalysts.pulverizer"
+require "prototypes.recipe.catalysts.saw"
 
 require "prototypes.recipe.crafting.burner-drill"
 require "prototypes.recipe.crafting.atmospheric-condenser"
@@ -89,3 +118,31 @@ require "prototypes.recipe.crafting.ore-washer"
 require "prototypes.recipe.crafting.fluid-separator"
 
 require "prototypes.recipe.condensing.oxygen"
+
+require "prototypes.recipe.gardening.wood-processing.tree-seed"
+require "prototypes.recipe.gardening.wood-processing.tree-sapling"
+require "prototypes.recipe.gardening.wood-processing.tree"
+require "prototypes.recipe.gardening.wood-processing.wood"
+
+require "prototypes.recipe.gardening.resin.dirty-resin"
+require "prototypes.recipe.gardening.resin.resin"
+
+require "prototypes.recipe.gardening.composting.compost-wood"
+require "prototypes.recipe.gardening.composting.compost-wood-chunks"
+require "prototypes.recipe.gardening.composting.compost-fish"
+require "prototypes.recipe.gardening.composting.compost-tree-seed"
+require "prototypes.recipe.gardening.composting.compost-tree-sapling"
+require "prototypes.recipe.gardening.composting.compost-tree"
+
+require "prototypes.recipe.electronics.dielectric-core"
+require "prototypes.recipe.electronics.olvalchite-foil"
+require "prototypes.recipe.electronics.pcb-base"
+require "prototypes.recipe.electronics.etched-pcb"
+
+require "prototypes.recipe.washing.trimidium"
+
+require "prototypes.recipe.chemistry.separation.hydrochloric-acid"
+require "prototypes.recipe.chemistry.synthesis.myridium-chloride"
+require "prototypes.recipe.chemistry.synthesis.pcb-etchant-solution"
+
+require "prototypes.recipe.vacuum"

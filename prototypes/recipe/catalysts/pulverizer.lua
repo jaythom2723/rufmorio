@@ -1,16 +1,16 @@
 RECIPE {
     type = "recipe",
-    name = "rufmorio-drill-bit",
+    name = "rufmorio-pulverizer",
     category = "crafting",
-    subgroup = "smelting-machine",
+    subgroup = "intermediate-product",
     icon = "__base__/graphics/icons/solid-fuel.png",
     ingredients = {
-        { type="item", name="rufmorio-trimidium-stick", amount=2 }
+        { type="item", name="rufmorio-trimidium-plate", amount=10 }
     },
     results = {
-        { type="item", name="rufmorio-drill-bit", amount=1 }
+        { type="item", name="rufmorio-pulverizer", amount=1 }
     },
-    allow_as_intermediate = true,
+    allow_as_intermediate = false,
     always_show_made_in = true,
     show_amount_in_title = true,
     always_show_products = true

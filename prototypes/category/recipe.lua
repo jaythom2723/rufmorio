@@ -70,6 +70,12 @@ fluid_separation_category = {
     order = "d"
 }
 
+composting_category = {
+    type = "recipe-category",
+    name = "rufmorio-composting-category",
+    order = "e"
+}
+
 data:extend{
     mining_category,
     fluid_mining_category, 
@@ -82,5 +88,6 @@ data:extend{
     resin_extraction_category,
     chemical_category,
     ore_washing_category,
-    fluid_separation_category
+    fluid_separation_category,
+    composting_category
 }

@@ -27,5 +27,6 @@ GROUP {
         { name="rufmorio-gardening-resin-subgroup" },
         { name="rufmorio-gardening-wood-processing-subgroup" },
         { name="rufmorio-gardening-farming-subgroup" },
+        { name="rufmorio-gardening-composting-subgroup" }
     }
 }

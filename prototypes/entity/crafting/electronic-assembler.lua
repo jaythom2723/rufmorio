@@ -79,6 +79,14 @@ ENTITY {
         secondary_draw_orders = { north = -1 }
       },
       {
+        production_type = "input",
+        pipe_picture = assembler2pipepictures(),
+        pipe_covers = pipecoverspictures(),
+        volume = 1000,
+        pipe_connections = {{ flow_direction="input", direction = defines.direction.west, position = {-1, 0} }},
+        secondary_draw_orders = { north = -1 }
+      },
+      {
         production_type = "output",
         pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
