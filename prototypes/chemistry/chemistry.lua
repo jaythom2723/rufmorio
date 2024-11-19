@@ -1,0 +1,32 @@
+require "entity.air-pump"
+require "entity.atmospheric-condenser"
+require "entity.chemical-assembling-machine"
+require "entity.fluid-separator"
+
+require "fluid.gaseous-hydrogen"
+require "fluid.gaseous-oxygen"
+require "fluid.hydrochloric-acid"
+require "fluid.hydrochloric-acid-water-mixture"
+require "fluid.myridium-chloride"
+require "fluid.vacuum"
+
+require "item.production-machine.air-pump"
+require "item.production-machine.atmospheric-condenser"
+require "item.production-machine.chemical-assembling-machine"
+require "item.production-machine.fluid-separator"
+
+require "recipe.separation.hydrochloric-acid-water-mixture"
+require "recipe.synthesis.myridium-chloride"
+require "recipe.synthesis.pcb-etchant-solution"
+require "recipe.pressurization.vacuum"
+require "recipe.condensing.oxygen"
+
+require "recipe.production-machine.air-pump"
+require "recipe.production-machine.atmospheric-condenser"
+require "recipe.production-machine.chemical-assembling-machine"
+require "recipe.production-machine.fluid-separator"
+
+require "technology.atmospheric-condensing"
+require "technology.fluid-separation"
+require "technology.myridium-chloride"
+require "technology.pressurization"

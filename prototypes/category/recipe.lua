@@ -76,6 +76,12 @@ composting_category = {
     order = "e"
 }
 
+fish_farming_category = {
+	type = "recipe-category",
+	name = "rufmorio-fish-farming-category",
+	order = "a"
+}
+
 data:extend{
     mining_category,
     fluid_mining_category, 
@@ -89,5 +95,6 @@ data:extend{
     chemical_category,
     ore_washing_category,
     fluid_separation_category,
-    composting_category
+    composting_category,
+	fish_farming_category
 }
