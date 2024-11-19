@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "rufmorio-electricity",
-    icon = "__base__/graphics/technology/steam-power.png",
+    icon = "__rufmorio-graphics-1__/graphics/technology/electricity.png",
     icon_size = 256,
     effects = {
     },

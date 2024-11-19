@@ -1,9 +1,11 @@
 TECHNOLOGY {
     type = "technology",
     name = "rufmorio-trimidium-processing-1",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__rufmorio-graphics-1__/graphics/technology/trimidium-processing-1.png",
+	icon_size = 256,
     prerequisites = {
-        "rufmorio-fish-husbandry"
+        "rufmorio-fish-husbandry",
+		"rufmorio-fish-oil"
     },
     effects = {
         {

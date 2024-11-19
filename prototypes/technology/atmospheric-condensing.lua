@@ -1,9 +1,10 @@
 TECHNOLOGY {
     type = "technology",
     name = "rufmorio-atmospheric-condensing",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__rufmorio-graphics-1__/graphics/technology/atmospheric-condensing.png",
+	icon_size = 256,
     prerequisites = {
-        "rufmorio-electricity"
+        "rufmorio-electricity",
     },
     effects = {
         {

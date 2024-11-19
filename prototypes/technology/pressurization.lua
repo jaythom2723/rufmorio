@@ -3,7 +3,8 @@ TECHNOLOGY {
     name = "rufmorio-pressurization",
     icon = "__base__/graphics/icons/solid-fuel.png",
     prerequisites = {
-        "rufmorio-atmospheric-condensing"
+        "rufmorio-atmospheric-condensing",
+		"rufmorio-fish-oil"
     },
     effects = {
         {

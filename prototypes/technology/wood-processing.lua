@@ -3,7 +3,9 @@ TECHNOLOGY {
     name = "rufmorio-wood-processing",
     icon = "__base__/graphics/icons/solid-fuel.png",
     prerequisites = {
-        "rufmorio-composting"
+        "rufmorio-composting",
+		"rufmorio-atmospheric-condensing",
+		"rufmorio-fish-oil"
     },
     effects = {
         {

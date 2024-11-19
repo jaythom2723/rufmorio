@@ -1,9 +1,10 @@
 TECHNOLOGY {
     type = "technology",
     name = "rufmorio-fluid-separation",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__rufmorio-graphics-1__/graphics/technology/fluid-separation.png",
+	icon_size = 256,
     prerequisites = {
-        "rufmorio-trimidium-processing-1"
+        "rufmorio-trimidium-processing-1",
     },
     effects = {
         {

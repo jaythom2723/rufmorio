@@ -153,6 +153,8 @@ require "prototypes.recipe.chemistry.synthesis.pcb-etchant-solution"
 
 require "prototypes.recipe.tool.basic-science-pack"
 
+require "prototypes.recipe.lab.burner-lab"
+
 require "prototypes.recipe.vacuum"
 
 require "prototypes.technology.electricity"
@@ -169,3 +171,12 @@ require "prototypes.technology.pcb-base"
 require "prototypes.technology.myridium-chloride"
 require "prototypes.technology.etching"
 require "prototypes.technology.etched-pcb"
+require "prototypes.technology.fish-rendering"
+require "prototypes.technology.fish-oil"
+require "prototypes.technology.smelting"
+require "prototypes.technology.alloys"
+require "prototypes.technology.solder"
+require "prototypes.technology.casting"
+require "prototypes.technology.solder-mask"
+require "prototypes.technology.pcb"
+require "prototypes.technology.electric-lab"

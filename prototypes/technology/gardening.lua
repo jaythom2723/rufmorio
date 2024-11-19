@@ -1,7 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "rufmorio-gardening",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__rufmorio-graphics-1__/graphics/technology/gardening.png",
+	icon_size = 256,
     prerequisites = {
         "rufmorio-electricity"
     },
